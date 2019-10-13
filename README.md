@@ -8,11 +8,5 @@
 
 [Framework N27](https://github.com/OS-Q/N27) 用于支持K210平台运行arduino
 
-### [关联资源](https://github.com/OS-Q/)
-
- *  [ Platform : K210](https://github.com/OS-Q/H13) 
-*   [Framework N28](https://github.com/OS-Q/N28)
- *  [ M7](https://github.com/OS-Q/M7) 
-
 ### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/N27)
 ####  2019-9-8
