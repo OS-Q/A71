@@ -1,6 +1,7 @@
 {
     "name": "framework-N27",
-    "description": "Arduino Wiring-based Framework (K210 Core)",
-    "version": "1.0.0",
-    "url": "https://github.com/sipeed/Maixduino"
+    "description": "Arduino Base K210 Core",
+    "system": "*",
+    "url": "https://github.com/OS-Q/N27",
+    "version": "1.0.0"
 }
