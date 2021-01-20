@@ -1,13 +1,9 @@
-﻿# [Framework N27](https://github.com/OS-Q/N27)
+﻿# [Framework A21](https://github.com/OS-Q/A21)
 
 [![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-#### 项目架构：[OS-Q](https://github.com/OS-Q)
+### [简介](https://github.com/OS-Q/A21/wiki)
 
-[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
+[Framework A21](https://github.com/OS-Q/A21)基于[PlatformIO](https://github.com/platformio/platformio-core) 框架
 
-### [Framework描述](https://github.com/OS-Q/N27/wiki) 
-
-[Framework N27](https://github.com/OS-Q/N27)基于PlatformIO平台，用于支持Arduino在 [K210](https://github.com/sochub/K210)平台运行
-
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/N27)
+### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)
