@@ -15,7 +15,7 @@ compiler.objcopy.cmd=riscv64-unknown-elf-objcopy
 compiler.elf2hex.cmd=riscv64-unknown-elf-objcopy
 compiler.size.cmd=riscv64-unknown-elf-size
 
-compiler.sdk.path={runtime.platform.path}/cores/arduino/kendryte-standalone-sdk/lib
+compiler.sdk.path={runtime.platform.path}/cores/arduino/native/lib
 compiler.lib_hal_inc.path={runtime.platform.path}/cores/arduino/hal/include
 compiler.cores.path={runtime.platform.path}/cores/arduino/
 compiler.preproc.flags="-I{build.system.path}/include" "-I{compiler.cores.path}" "-I{compiler.cores.path}/avr" "-I{compiler.lib_hal_inc.path}" "-I{compiler.sdk.path}/bsp/include" "-I{compiler.sdk.path}/drivers/include" "-I{compiler.sdk.path}/utils/include" "-I{compiler.sdk.path}/freertos/conf" "-I{compiler.sdk.path}/freertos/include" "-I{compiler.sdk.path}/freertos/portable"
