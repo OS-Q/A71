@@ -6,7 +6,7 @@
 #include "fpioa.h"
 #include "stdint.h"
 #include "stdbool.h"
-#include "../native/lib/drivers/include/spi.h"
+#include "../kendryte-standalone-sdk/lib/drivers/include/spi.h"
 #include "SPI_hal.h"
 #include "sysctl.h"
 
@@ -46,7 +46,7 @@ static void sipeed_spi_set_tmod(uint8_t spi_num, uint32_t tmod)
 }
 
 /**
- *
+ * 
  * @param chip_select -1: not use cs
  */
 void sipeed_spi_transfer_data_standard(spi_device_num_t spi_num, int8_t chip_select, const uint8_t *tx_buff,uint8_t *rx_buff,  size_t len)
@@ -273,7 +273,7 @@ SPIClass::SPIClass(spi_id_t spi_bus, int8_t sck, int8_t miso, int8_t mosi, int8_
 
 
 /**
- *
+ * 
  * @param ss -1: not use
  */
 void SPIClass::begin(int8_t sck, int8_t miso, int8_t mosi, int8_t ss)
@@ -322,7 +322,7 @@ void SPIClass::begin(int8_t sck, int8_t miso, int8_t mosi, int8_t ss)
     _ss = ss;
     _ssPeriph = getSsByPin(_spiNum, ss);
     if(_ssPeriph<0)
-        _ssPeriph = 0; // default to cs0 TODO: optimize?
+        _ssPeriph = 0; // default to cs0 TODO: optimize? 
     spi_init(spi_device_num_t(_spiNum), spi_work_mode_t(_dataMode), SPI_FF_STANDARD, 8, 0);
     spi_set_clk_rate(spi_device_num_t(_spiNum), _freq);
 }

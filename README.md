@@ -1,9 +1,22 @@
-﻿# [A71](https://github.com/OS-Q/A71)
+Maixduino
+========
 
-[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
+Arduino core for Maix Board (K210)
 
-### [简介](https://github.com/OS-Q/A71/wiki)
 
-[A71](https://github.com/OS-Q/A71) 适配 [P71](https://github.com/OS-Q/P71)
+## Docs
 
-### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)
+Docs: [maixduino.sipeed.com](https://maixduino.sipeed.com/)
+
+## Install
+
+Refer install doc: [Install](https://maixduino.sipeed.com/en/get_started/install.html)
+
+
+## Other SDK
+
+If you want to code by scripts, refer to our [MaixPy](https://maixpy.sipeed.com)
+
+
+
+

@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+__pycache__/
+*.vscode/
+*.pio/
+*.rst
+*.md
+**/*/README*
+LICENSE*
+*.png
+*.jpg
+examples/**/*.yml
+examples/**/*.md
+**/CONTR*
+**/CHANGE*
+.gitmodules
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+.piopm
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# vscode
+.vscode
+
