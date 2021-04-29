@@ -1,7 +1,7 @@
 {
-  "name": "framework-maixduino",
+  "name": "A71",
   "version": "0.3.9",
-  "description": "Arduino \u0421ore for Maix Board (K210)",
+  "description": "Arduino Core for K210",
   "keywords": [
     "framework",
     "arduino",
