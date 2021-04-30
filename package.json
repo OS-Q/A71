@@ -1,7 +1,7 @@
 {
     "name": "A71",
-    "description": "Arduino Base K210 Core",
+    "description": "Arduino Core K210",
     "system": "*",
     "url": "https://github.com/OS-Q/A71",
-    "version": "0.3.9"
+    "version": "0.4.0"
 }
